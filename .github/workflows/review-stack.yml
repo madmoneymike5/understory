@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   review-stack:
-    uses: madmoneymike5/review-stack-runtime/.github/workflows/review-stack.yml@ef44da1ad4f8094a7c929b8c0070b13da40aadbb
+    uses: madmoneymike5/review-stack-runtime/.github/workflows/review-stack.yml@e32b9fa29dbcf65a289c3fd066d42cd7cb2f094f
     with:
       native-command: >-
         corepack enable && pnpm install --frozen-lockfile --ignore-scripts && pnpm --filter @understory/core build && pnpm --filter @understory/core test && pnpm --filter @understory/server build && pnpm --filter @understory/server test && pnpm --filter @understory/web build
