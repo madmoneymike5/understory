@@ -10,4 +10,4 @@ permissions:
 
 jobs:
   trufflehog:
-    uses: madmoneymike5/review-stack-runtime/.github/workflows/trufflehog.yml@beaf91f218ba3d7cd9d27c5e9c1a990583a64473
+    uses: madmoneymike5/review-stack-runtime/.github/workflows/trufflehog.yml@ef44da1ad4f8094a7c929b8c0070b13da40aadbb
