@@ -144,7 +144,7 @@ importers:
         version: 4.7.0(vite@6.4.3(@types/node@20.19.43)(jiti@1.21.7)(tsx@4.23.0))
       autoprefixer:
         specifier: ^10.4.0
-        version: 10.5.2(postcss@8.5.18)
+        version: 10.5.2(postcss@8.5.28)
       github-dark-dimmed:
         specifier: link:@shikijs/themes/github-dark-dimmed
         version: link:@shikijs/themes/github-dark-dimmed
@@ -152,8 +152,8 @@ importers:
         specifier: link:@shikijs/themes/github-light
         version: link:@shikijs/themes/github-light
       postcss:
-        specifier: ^8.5.0
-        version: 8.5.18
+        specifier: ^8.5.23
+        version: 8.5.28
       tailwindcss:
         specifier: ^3.4.0
         version: 3.4.19(tsx@4.23.0)
@@ -1811,10 +1811,6 @@ packages:
   postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  postcss@8.5.18:
-    resolution: {integrity: sha512-xdB1oSLHbz1vRWgCDalrCqEFTWzFlhqFC5tIHLMOSUIjhm3XXQ1qrFy8S/ESr1JYRRXqM3c1QFiMZUJdUTqyMQ==}
-    engines: {node: ^10 || ^12 || >=14}
-
   postcss@8.5.28:
     resolution: {integrity: sha512-RRuzqDtt5Y9h3quz5hWhK+TPnsmVs6WwSU6LkJMeY4HstUEDuYTG8UJSdawMRzmzAtV+KEoG8N3Qg2qLy5vM/A==}
     engines: {node: ^10 || ^12 || >=14}
@@ -3003,13 +2999,13 @@ snapshots:
 
   assertion-error@2.0.1: {}
 
-  autoprefixer@10.5.2(postcss@8.5.18):
+  autoprefixer@10.5.2(postcss@8.5.28):
     dependencies:
       browserslist: 4.28.7
       caniuse-lite: 1.0.30001803
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.18
+      postcss: 8.5.28
       postcss-value-parser: 4.2.0
 
   bail@2.0.2: {}
@@ -3989,29 +3985,29 @@ snapshots:
 
   pkce-challenge@5.0.1: {}
 
-  postcss-import@15.1.0(postcss@8.5.18):
+  postcss-import@15.1.0(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.18
+      postcss: 8.5.28
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.12
 
-  postcss-js@4.1.0(postcss@8.5.18):
+  postcss-js@4.1.0(postcss@8.5.28):
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.5.18
+      postcss: 8.5.28
 
-  postcss-load-config@6.0.1(jiti@1.21.7)(postcss@8.5.18)(tsx@4.23.0):
+  postcss-load-config@6.0.1(jiti@1.21.7)(postcss@8.5.28)(tsx@4.23.0):
     dependencies:
       lilconfig: 3.1.3
     optionalDependencies:
       jiti: 1.21.7
-      postcss: 8.5.18
+      postcss: 8.5.28
       tsx: 4.23.0
 
-  postcss-nested@6.2.0(postcss@8.5.18):
+  postcss-nested@6.2.0(postcss@8.5.28):
     dependencies:
-      postcss: 8.5.18
+      postcss: 8.5.28
       postcss-selector-parser: 6.1.4
 
   postcss-selector-parser@6.1.4:
@@ -4020,12 +4016,6 @@ snapshots:
       util-deprecate: 1.0.2
 
   postcss-value-parser@4.2.0: {}
-
-  postcss@8.5.18:
-    dependencies:
-      nanoid: 3.3.18
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
 
   postcss@8.5.28:
     dependencies:
@@ -4361,11 +4351,11 @@ snapshots:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.1.1
-      postcss: 8.5.18
-      postcss-import: 15.1.0(postcss@8.5.18)
-      postcss-js: 4.1.0(postcss@8.5.18)
-      postcss-load-config: 6.0.1(jiti@1.21.7)(postcss@8.5.18)(tsx@4.23.0)
-      postcss-nested: 6.2.0(postcss@8.5.18)
+      postcss: 8.5.28
+      postcss-import: 15.1.0(postcss@8.5.28)
+      postcss-js: 4.1.0(postcss@8.5.28)
+      postcss-load-config: 6.0.1(jiti@1.21.7)(postcss@8.5.28)(tsx@4.23.0)
+      postcss-nested: 6.2.0(postcss@8.5.28)
       postcss-selector-parser: 6.1.4
       resolve: 1.22.12
       sucrase: 3.35.1
@@ -4511,7 +4501,7 @@ snapshots:
       esbuild: 0.25.12
       fdir: 6.5.0(picomatch@4.0.5)
       picomatch: 4.0.5
-      postcss: 8.5.18
+      postcss: 8.5.28
       rollup: 4.62.2
       tinyglobby: 0.2.17
     optionalDependencies:
