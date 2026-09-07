@@ -11,11 +11,10 @@ permissions:
 
 jobs:
   review-stack:
-    uses: madmoneymike5/review-stack-runtime/.github/workflows/review-stack.yml@v1
+    uses: madmoneymike5/review-stack-runtime/.github/workflows/review-stack.yml@beaf91f218ba3d7cd9d27c5e9c1a990583a64473
     with:
       native-command: >-
         corepack enable && pnpm install --frozen-lockfile --ignore-scripts && pnpm --filter @understory/core build && pnpm --filter @understory/core test && pnpm --filter @understory/server build && pnpm --filter @understory/server test && pnpm --filter @understory/web build
-      central-ref: v1
       opengrep-excludes: ""
       gitleaks-excludes: |-
         
